@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "cheatwatch",
+  "version": "${version}",
+  "name": "CheatWatch",
+  "description": "Klientský detektor podezřelého chování hráčů v okolí 20 bloků.",
+  "environment": "client",
+  "mixins": ["cheatwatch.mixins.json"],
+  "entrypoints": { "client": ["cz.cheatwatch.CheatWatchClient"] },
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "~1.21.11", "java": ">=21", "fabric-api": "*" }
+}
